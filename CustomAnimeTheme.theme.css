@@ -61,6 +61,7 @@
       --add-discover-icon-transparency: #0000;
       --add-discover-icon-color: #43b581;
   
+      --postchannel-transparency: #0006;
       --channel-limit-count-color: #43b581;
       --channel-limit-background-left: #c8c8c81a;
       --channel-limit-background-right: #c8c8c833;
@@ -106,5 +107,5 @@
  .pill-3pRQlO,
  .contentPreview-3fWiuC,
  .container-1PloNW {
-     background-color: #0006;
+     background-color: var(--postchannel-transparency)
  }

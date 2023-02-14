@@ -90,6 +90,16 @@
     
 }
 
+ /* 貼文背景色 */
+ .tagsContainer-2bBw1x > button,
+ .resizeHandle-PBRzPC,
+ .mainCard-3KBsBI.header-1Uy0p6,
+ .pill-3pRQlO,
+ .contentPreview-3fWiuC,
+ .container-1PloNW {
+     background-color: var(--postchannel-transparency)
+ }
+ 
 .container-3YcgdM {
     background-color: #0008;
 }
