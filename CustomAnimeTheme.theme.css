@@ -7,9 +7,8 @@
  * @updateUrl https://plusinsta.github.io/CustomAnimeTheme/CustomAnimeTheme.theme.css
  */
 
- @import url(https://adam200134.github.io/CustomAnimeTheme/Transparency.css);
-
- :root {
+@import url(https://adam200134.github.io/CustomAnimeTheme/Transparency.css);
+:root {
      --columns: 1;
      --guildsize: 40;
      --guildgap: 3;
@@ -98,5 +97,4 @@
      --reaction-emoji-border-color: 1px solid transparent;
      --reaction-emoji-hover-background-color: #00000090;
      --reaction-emoji-hover-border-color: #000000A0;
-     
- }
+}
