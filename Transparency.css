@@ -1,4 +1,12 @@
-:root {
+/**
+ * @author adam200134 (Discord: 夏目#2001)
+ * @version 2.5
+ * @description 由一個很閒的DC廢人製作
+ * @website https://adam200134.github.io/
+ * @source https://github.com/adam200134/CustomAnimeTheme/
+ */
+
+ :root {
     --columns: 1;
     --guildsize: 40;
     --guildgap: 3;
