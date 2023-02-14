@@ -10,9 +10,9 @@
     --theme-transparency: #00000060;
     --replyfromcolor: #00000010;
 
-    --home-icon-image: url("https://betterdiscord.app/resources/branding/logo_small.svg");
+    --home-icon-image: url("https://i.imgur.com/fCZpgHp.png");
     --home-icon-image-zoom: 100%;
-    --home-icon-image-position: center;
+    --home-icon-image-position: cover;
 
     --small-popout-image: url("https://i.imgur.com/upGP3j6.png");
     --small-popout-transparency: #00000099;
@@ -51,6 +51,7 @@
     --add-discover-icon-transparency: #0000;
     --add-discover-icon-color: #43b581;
 
+    --postchannel-transparency: #0006;
     --channel-limit-count-color: #43b581;
     --channel-limit-background-left: #c8c8c81a;
     --channel-limit-background-right: #c8c8c833;
@@ -87,19 +88,26 @@
     --reaction-emoji-border-color: 1px solid transparent;
     --reaction-emoji-hover-background-color: #00000090;
     --reaction-emoji-hover-border-color: #000000A0;
-    
 }
 
- /* 貼文背景色 */
- .tagsContainer-2bBw1x > button,
- .resizeHandle-PBRzPC,
- .mainCard-3KBsBI.header-1Uy0p6,
- .pill-3pRQlO,
- .contentPreview-3fWiuC,
- .container-1PloNW {
-     background-color: var(--postchannel-transparency)
- }
- 
+.resizeHandle-PBRzPC {
+    width: 5px;
+}
+.container-3YcgdM {
+    background-color: #0008;
+}
+/* 貼文背景色 */
+.resizeHandle-PBRzPC,
+.mainCard-3KBsBI.header-1Uy0p6,
+.pill-3pRQlO,
+.contentPreview-3fWiuC,
+.container-1PloNW {
+    background-color: var(--postchannel-transparency)
+}
+
+.tagsContainer-2bBw1x > button {
+    background-color: #0004;
+}
 .container-3YcgdM {
     background-color: #0008;
 }
