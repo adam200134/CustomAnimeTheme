@@ -875,8 +875,6 @@
     border-color: var(--reaction-emoji-hover-border-color)
 }
 
-
-
 .theme-dark .container-S9SaVf {
     background-color: rgba(255, 255, 255, 8%)
 }
@@ -923,7 +921,7 @@ html {
 
 .theme-dark .autocomplete-3NRXG8 {
     background-color: rgba(0, 0, 0, .7);
-    backdrop-filter: blur(5px)
+    backdrop-filter: blur(5px);
 }
 
 .theme-dark .selected-3H3-RC {
